@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 20px;
+}
+
+.item>p {
+    margin: 0;
+}
+
+.item img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.item p:first-child {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+#controls {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 200px;
+    height: 400px;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#categories {
+    margin-bottom: 20px;
+}
